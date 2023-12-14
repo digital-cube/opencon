@@ -1,0 +1,6 @@
+.env
+.venv
+id_rsa
+id_rsa.pub
+credentials.json
+.idea

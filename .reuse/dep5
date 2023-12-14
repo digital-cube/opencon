@@ -1,0 +1,15 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: OpenCON
+Upstream-Contact: DigitalCUBE <info@digitalcube.rs>
+Source: https://m.opencon.dev/
+
+# Sample paragraph, commented out:
+#
+Files: .gitignore .venv/**
+Copyright: 2023 DigitalCUBE <info@digitalcube.rs>
+License: GPL-3.0-or-later
+
+Files: src/*.py
+Copyright: 2023 DigitalCUBE <info@digitalcube.rs>
+License: GPL-3.0-or-later
+
