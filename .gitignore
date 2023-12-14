@@ -1,7 +1,7 @@
 .mypy_cache
 .env
 *.pyc
-.venv
+#.venv
 .idea
 *~
 __pycache__

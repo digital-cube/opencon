@@ -9,7 +9,11 @@ Files: .gitignore .venv/**
 Copyright: 2023 DigitalCUBE <info@digitalcube.rs>
 License: GPL-3.0-or-later
 
-Files: src/*.py
+#Files: *.ttf
+#License: OFL-1.1-RFN
+
+
+Files: src/*.py src/*.yaml src/*.xml src/docker/* README.md requirements.txt src/pyproject.toml src/tests/assets/fake_attendees.json src/tests/pytest.ini
 Copyright: 2023 DigitalCUBE <info@digitalcube.rs>
 License: GPL-3.0-or-later
 
