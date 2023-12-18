@@ -19,7 +19,7 @@ services:
     - .env
     volumes:
     - ./src/:/app
-    - /var/log/sfscon:/var/log/sfscon
+    - /var/log/opencon:/var/log/opencon
     ports:
     - 8000:8000
     extra_hosts:
@@ -38,7 +38,7 @@ services:
     - .env
     volumes:
     - ./src/:/app
-    - /var/log/sfscon:/var/log/sfscon
+    - /var/log/opencon:/var/log/opencon
     extra_hosts:
       - "host.docker.internal:host-gateway"
   
@@ -55,4 +55,4 @@ services:
     - .env
     volumes:
     - ./src/:/app
-    - /var/log/sfscon:/var/log/sfscon
+    - /var/log/opencon:/var/log/opencon
